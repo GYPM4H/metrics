@@ -18,8 +18,8 @@ if __name__ == "__main__":
     #     np.array([[1, 1, 1, 0, 0], [1, 1, 1, 1, 0], [0, 1, 1, 1, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]])   # Ground truth mask 3
     # ])
 
-    predicted_masks = np.load("./SEVENLINES_WATER.npy")
-    ground_truth_masks = np.load("./SEVENLINES_GT.npy")
+    predicted_masks = np.load("./EM_WATER.npy")
+    ground_truth_masks = np.load("./EM_GT.npy")
 
     # iou_values = []
     # for i in range(4):  # we only have 4 ground truth masks
